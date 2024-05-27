@@ -13,7 +13,9 @@ public:
 
 class derivedclass :public baseclass {
 public:
-	
+	void perkenalan() {
+		cout << "halo saya function dari derived class";
+	}
 };
 
 
