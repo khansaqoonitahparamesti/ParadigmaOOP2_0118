@@ -11,4 +11,9 @@ public:
 	}
 };
 
+class derivedclass :public baseclass {
+public:
+	
+};
+
 
