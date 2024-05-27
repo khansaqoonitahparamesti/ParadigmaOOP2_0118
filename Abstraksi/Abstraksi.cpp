@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-class Abstraksiklass {
+class Abstraksikelas{
 private:string x, y;
 
 public:
@@ -22,3 +22,11 @@ public:
 		cout << "y=" << y << endl;
 	}
 };
+
+int main() {
+	Abstraksikelas ak;
+	ak.setXY("yogyakarta", "kampus");
+	ak.display();
+
+	return 0;
+}
